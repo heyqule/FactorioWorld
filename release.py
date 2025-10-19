@@ -22,7 +22,7 @@ excludes = [
     'Screenshots',
     '*.zip',
     '*.py',
-    '*.txt',
+    'terrain info.txt',
 ]
 with ZipFile(f'{root_folder_name}.zip', 'w', ZIP_DEFLATED) as zipObj:
     # Iterate over all the files in directory
